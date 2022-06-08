@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family:pacifico ;
+    src: url(font/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: arabic;
+    src: url(font/Harmattan-Regular.ttf);
+}
+@font-face {
+    font-family: nastaliq;
+    src: url(font/NotoNastaliqUrdu-Bold.ttf);
+}
+body{
+    background-image: url(image/background1.webp);
+    
+}
+.main{
+    display: flex;
+    
+    
+
+}
+.head{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: pacifico;
+    
+
+}
+.head:hover{
+    color: goldenrod;
+}
+
+.left{
+    background-color: white;
+    border-radius: 8px;
+    width: 80%;
+    text-align: center;
+    opacity: 0.7;
+    color: brown;
+    font-family: pacifico;  
+    height: 650px;
+    box-shadow: 5px 5px 5px 5px brown;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+
+}
+.headding {
+    background-color: brown;
+    color: white;
+    font-family: nastaliq;
+    font-size: 40px;
+    border-radius: 10px;
+}
+.headding:hover{
+    background-color: white;
+    color: brown;
+}
+.dua{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    font-family: nastaliq;
+}
+.new{
+    font-size: 35px;
+    color: gold;
+}
+.main_headding{
+    font-size: 50px;
+    font-weight: bold;
+}
+.right{
+    background-color: white;
+    opacity: 0.7;
+    width: 80%;
+    border-radius: 8px;
+    margin-left: 10px;
+    box-shadow: 20px 20px 20px brown;
+    height: 650px;
+    overflow: scroll;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+table{
+    margin: 0px auto;
+    
+}
+table tr td{
+    border: 2px solid brown;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    
+}
+table tr td:hover{
+    color: white;
+    background-color: brown;
+}
+table tr th{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background-color: brown;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-family: pacifico;
+}
+table tr th:hover{
+    color: brown;
+    background-color: white;
+}
